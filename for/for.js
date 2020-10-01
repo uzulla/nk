@@ -27,6 +27,12 @@ for (const key in hash) {
     console.log(hash[key]) // ok
 }
 
+// NG
+// for (const key of hash) {
+//     console.log(key)
+//     console.log(hash[key]) // ok
+// }
+
 
 console.log('====')
 
