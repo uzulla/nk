@@ -22,9 +22,8 @@ for (const [k, v] of Object.entries(hash)) {
 
 console.log('======for in hash')
 
-for (const [key, value] in hash) {
+for (const key in hash) {
     console.log(key)
-    console.log(value) // NG
     console.log(hash[key]) // ok
 }
 
